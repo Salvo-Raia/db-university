@@ -23,6 +23,15 @@ WHERE degrees.level = "magistrale" AND departments.name = "Dipartimento di Neuro
 ```
 
 3. Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)
+
+```sql
+SELECT teachers.id AS teacher_id, teachers.name, teachers.surname, courses.name AS course_name
+FROM db_university.teachers
+INNER JOIN course_teacher ON teacher_id = id
+INNER JOIN courses ON course_id = courses.id
+WHERE teachers.id = 44
+```
+
 4. Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
    sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
    nome
@@ -32,3 +41,7 @@ WHERE degrees.level = "magistrale" AND departments.name = "Dipartimento di Neuro
 7. BONUS: Selezionare per ogni studente il numero di tentativi sostenuti
    per ogni esame, stampando anche il voto massimo. Successivamente,
    filtrare i tentativi con voto minimo 18.
+
+```sql
+
+```
