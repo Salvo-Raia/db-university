@@ -75,5 +75,12 @@ ORDER BY teachers.id ASC
    filtrare i tentativi con voto minimo 18.
 
 ```sql
-
+SELECT students.id AS student_id, students.name, students.surname, courses.id course_id, courses.name AS exam, COUNT(*) AS attempts, MAX(exam_student.vote) AS highest_vote
+FROM db_university.students
+INNER JOIN exam_student ON exam_student.student_id = students.id
+INNER JOIN exams ON exam_student.exam_id = exams.id
+INNER JOIN courses ON exams.course_id = courses.id
+GROUP BY students.id, courses.id
+HAVING MAX(exam_student.vote) >= 18
+ORDER BY students.id ASC
 ```
