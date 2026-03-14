@@ -40,3 +40,8 @@ Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file MD
 - Lanciamo anche lì l’installer e facciamo il setup
 - Impostiamo una password per l’utente root (richiede almeno 8 lettere)
 - Scarichiamo anche MySQL Workbench https://dev.mysql.com/downloads/workbench/
+
+## Consegna giorno 3 
+
+Utilizzando lo stesso database di ieri, eseguite le query in allegato.
+Caricate un secondo file per le soluzioni delle query GROUP BY e un altro file per le soluzioni delle query JOIN nella stessa repo di ieri (db-university) con le query di oggi.
