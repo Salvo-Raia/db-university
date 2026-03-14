@@ -35,6 +35,15 @@ WHERE teachers.id = 44
 4. Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
    sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
    nome
+
+```sql
+SELECT students.id AS student_id, students.surname, students.name, degrees.name, degrees.level, departments.name
+FROM db_university.students
+INNER JOIN degrees ON degree_id = degrees.id
+INNER JOIN departments ON department_id = departments.id
+ORDER BY students.surname, students.name ASC
+```
+
 5. Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti
 6. Selezionare tutti i docenti che insegnano nel Dipartimento di
    Matematica (54)
