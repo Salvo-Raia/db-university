@@ -59,7 +59,15 @@ ORDER BY degrees_id
    Matematica (54)
 
 ```sql
-
+SELECT teachers.id AS teacher_id, departments.name, teachers.name AS teacher_name, teachers.surname AS teacher_surname
+FROM db_university.teachers
+INNER JOIN course_teacher ON course_teacher.teacher_id = teachers.id
+INNER JOIN courses ON course_teacher.course_id = courses.id
+INNER JOIN degrees ON courses.degree_id = degrees.id
+INNER JOIN departments ON degrees.department_id = departments.id
+WHERE departments.name = "Dipartimento di Matematica"
+GROUP BY teachers.id, departments.name, teachers.name, teachers.surname
+ORDER BY teachers.id ASC
 ```
 
 7. BONUS: Selezionare per ogni studente il numero di tentativi sostenuti
