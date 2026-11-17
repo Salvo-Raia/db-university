@@ -1,6 +1,6 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 47/50 - University Database
+# 🎓 Exercise 47/50: University Database
 
 Design and implement a relational database for a university, then practice SQL queries to retrieve and analyze its data.
 
@@ -126,6 +126,4 @@ Continue working with the same database and execute the provided JOIN queries.
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
-
-
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
