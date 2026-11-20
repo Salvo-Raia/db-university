@@ -1,23 +1,20 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 47/50: University Database
+# Exercise 47/50: University Database
 
 Design and implement a relational database for a university, then practice SQL queries to retrieve and analyze its data.
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | `db-university` |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 47/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| db-university | University Database | Exercise | Relational database , SQL Queries & JOINs | 47/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Create a relational database to manage the information and relationships within a university.
 
-### Part 1 - Database Design
+### Part 1 - Database design
 
 Identify the entities, define their attributes and data types, and establish the relationships between the tables.
 
@@ -84,7 +81,7 @@ Once completed:
 - Export the diagram as a JPG image.
 - Upload the exported image to the repository.
 
-### Part 2 - Database Schema and SQL Queries
+### Part 2 - Database schema and SQL queries
 
 - Create a new database using MySQL Workbench.
 - Import the provided database schema.
@@ -92,7 +89,7 @@ Once completed:
 - Test the queries using MySQL Workbench.
 - Save the solutions in a Markdown file and upload it to the repository.
 
-### Part 3 - GROUP BY Queries
+### Part 3 - GROUP BY queries
 
 Using the same university database, execute the additional queries provided in the assignment.
 
@@ -100,7 +97,7 @@ Using the same university database, execute the additional queries provided in t
 - Save the solutions in a separate Markdown file.
 - Upload the file to the `db-university` repository.
 
-### Part 4 - JOIN Queries
+### Part 4 - JOIN queries
 
 Continue working with the same database and execute the provided JOIN queries.
 
@@ -108,11 +105,12 @@ Continue working with the same database and execute the provided JOIN queries.
 - Save the solutions in a separate Markdown file.
 - Upload the file to the `db-university` repository.
 
-## 🛠️ Technologies
+## Technologies
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) 
+![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-## 💡 What I Learned
+## What I learned
 
 - Designing relational database schemas.
 - Identifying entities, attributes, and relationships.
@@ -124,6 +122,6 @@ Continue working with the same database and execute the provided JOIN queries.
 - Retrieving related data using `JOIN`.
 - Documenting database structures and SQL solutions.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
