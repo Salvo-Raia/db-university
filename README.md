@@ -8,7 +8,7 @@ Design and implement a relational database for a university, then practice SQL q
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| db-university | University Database | Exercise | Relational database, SQL queries | 47/50 |
+| db-university | University Database | Exercise | Relational database, MySQL, SQL queries | 47/50 |
 
 ## Assignment
 
