@@ -8,7 +8,7 @@ Design and implement a relational database for a university, then practice SQL q
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| db-university | University Database | Exercise | Relational database & SQL queries | 47/50 |
+| db-university | University Database | Exercise | Relational database, SQL queries | 47/50 |
 
 ## Assignment
 
@@ -107,7 +107,7 @@ Continue working with the same database and execute the provided JOIN queries.
 
 ## Technologies
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ## What I learned
