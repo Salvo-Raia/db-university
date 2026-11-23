@@ -18,7 +18,7 @@ Create a relational database to manage the information and relationships within 
 
 Identify the entities, define their attributes and data types, and establish the relationships between the tables.
 
-The database must represent the following entities and relationships:
+The database must represent the following entities and relationships.
 
 - **Departments:** Each department offers multiple degree programs.
 - **Degree Programs:** Each degree program belongs to a department and includes multiple study courses.
@@ -31,7 +31,7 @@ The database must represent the following entities and relationships:
 
 #### Departments
 
-Create a table with the following fields:
+Create a table with the following fields.
 
 - `id`
 - `name`
@@ -44,7 +44,7 @@ Create a table with the following fields:
 
 #### Degree Programs
 
-Create a table with the following fields:
+Create a table with the following fields.
 
 - `id`
 - `name`
@@ -58,7 +58,7 @@ Create a table with the following fields:
 
 #### Study Courses
 
-Create a table with the following fields:
+Create a table with the following fields.
 
 - `id`
 - `name`
