@@ -29,7 +29,7 @@ The database must represent the following entities and relationships.
 - **Exam Registrations:** Students can register for multiple exam sessions.
 - **Exam Results:** For every exam session attended by a student, the database must store the grade obtained, including failing grades.
 
-#### Departments
+**Departments**
 
 Create a table with the following fields.
 
@@ -42,7 +42,7 @@ Create a table with the following fields.
 - `secretariat_email`
 - `secretariat_phone`
 
-#### Degree Programs
+**Degree Programs**
 
 Create a table with the following fields.
 
@@ -56,7 +56,7 @@ Create a table with the following fields.
 - `coordinator`
 - `description`
 
-#### Study Courses
+**Study Courses**
 
 Create a table with the following fields.
 
@@ -72,7 +72,7 @@ Create a table with the following fields.
 
 Define the appropriate tables, columns, data types, primary keys, foreign keys, and relationships to represent the complete university structure.
 
-#### Database Diagram
+**Database Diagram**
 
 Use [draw.io](https://www.drawio.com/) to create the entity-relationship diagram.
 
@@ -82,6 +82,8 @@ Once completed:
 - Upload the exported image to the repository.
 
 ### Part 2 - Database schema and SQL queries
+
+Create the MySQL database using the provided schema, then execute and document the SQL queries included in the assignment.
 
 - Create a new database using MySQL Workbench.
 - Import the provided database schema.
